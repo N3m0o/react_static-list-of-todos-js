@@ -21,8 +21,10 @@ html {
     color: #f00;
   }
 
-  &--completed &__title {
-    color: #080;
+  &.TodoInfo--completed {
+    &__title {
+      color: #080;
+    }
   }
 }
 
